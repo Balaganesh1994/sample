@@ -20,10 +20,6 @@ output "instance_private_ip" {
   value = data.aws_instance.my_instance.private_ip
 }
 
-output "instance_state" {
-  value = data.aws_instance.my_instance.state
-}
-
 output "instance_type" {
   value = data.aws_instance.my_instance.instance_type
 }
